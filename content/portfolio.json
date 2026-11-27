@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "profile": {
+    "name": "histry",
+    "role": "记录 · 构建 · 持续成长",
+    "headline": "把想法变成作品，\n把积累变成能力。",
+    "intro": "在这里，用真实的项目呈现思考与实践，也用文字记录学习、探索和不断改进的过程。",
+    "about": "这里收录已经落地的作品、项目中使用的方法，以及值得留下的实践记录。\n\n目前展示的是这个个人网站与效率工作台。后续会继续补充其他项目、文章与个人介绍。",
+    "github": "https://github.com/histry",
+    "email": "",
+    "resume": "",
+    "location": ""
+  },
+  "skills": [
+    {
+      "id": "interfaces",
+      "title": "界面与交互",
+      "description": "把需求整理成清晰的页面，让信息结构、操作反馈和手机体验都更顺手。",
+      "tags": [
+        "React",
+        "组件设计",
+        "响应式布局"
+      ]
+    },
+    {
+      "id": "data",
+      "title": "数据与组织",
+      "description": "围绕个人记录设计数据结构，兼顾本地保存、备份恢复与跨设备同步。",
+      "tags": [
+        "数据建模",
+        "本地优先",
+        "GitHub 同步"
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "实现与交付",
+      "description": "从功能实现到测试和部署，把可运行的想法整理成能够访问、持续改进的作品。",
+      "tags": [
+        "Vite",
+        "功能测试",
+        "GitHub Pages"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "datatool",
+      "title": "个人网站与效率工作台",
+      "category": "WEB APPLICATION",
+      "featured": true,
+      "summary": "将个人展示、博客写作与日常管理放进同一个空间，让记录有条理，让想法有落点。",
+      "content": "## 项目概览\n\n一个不依赖自建后端服务器的个人网站与效率工作台，整合博客、每日计划、备忘录、学习路径、项目整理与科研记录。\n\n## 关键实现\n\n- 使用 React 和 Vite 构建模块化界面，适配电脑与手机。\n- 工作台先在浏览器本地保存，支持备份、导入和离线编辑。\n- 通过独立私有 GitHub 仓库同步个人数据，并处理不同设备的修改冲突。\n- 公开网页和文章使用 GitHub Pages 发布，与私有工作台数据分开。\n\n## 体验说明\n\n体验入口打开的是当前访客自己的浏览器工作台，不会显示作者的私人计划或备忘。",
+      "stack": [
+        "React",
+        "Vite",
+        "IndexedDB",
+        "GitHub API"
+      ],
+      "liveUrl": "#/workspace",
+      "repoUrl": "https://github.com/histry/dataTool-blog",
+      "imageUrl": ""
+    }
+  ]
+}
